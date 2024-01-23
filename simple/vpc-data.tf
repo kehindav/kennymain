@@ -3,9 +3,9 @@ data "terraform_remote_state" "vpc" {
 
   config = {
     #hostname = "app.terraform.io"
-    organization = "sagarkaushalorganization"
+    organization = "Kennyjibo"
     workspaces = {
-      name = "terraformlearning-networking"
+      name = "kennymain"
     }
   }
 }
