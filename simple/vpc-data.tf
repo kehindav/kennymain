@@ -1,5 +1,5 @@
 data "terraform_remote_state" "vpc" {
-  backend = "simple"
+  backend = "remote"
 
   config = {
     #hostname = "app.terraform.io"
